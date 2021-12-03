@@ -1,0 +1,25 @@
+<script>
+/*Juego del ahorcado*/
+alert ("Bienvenido al juego del ahorcado");
+var palabra = prompt("ingrese una palabra");
+var palabraoculta = "";
+intentos=0;
+errores=5;
+var letras = palabra.length;
+for (var i = 0; i < palabra.length; i++) {
+    var letra = promt("ingrese una letra");
+    if (letra[i] == letra) {
+        
+    }
+    alert("letra correcta");
+    intentos = intentos + 1;
+   }  { 
+    alert("letra incorrecta");
+    errores = errores - 1; }
+    
+    if (errores == 0) {
+        alert("perdiste");
+            } else {
+                alert("ganaste");
+            }
+</script> 
